@@ -1,0 +1,92 @@
+ body {
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e0e0e0;
+        }
+
+        .filter-form {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .filter-form input[type="text"] {
+            padding: 5px;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+        }
+        .filter-form input[type="submit"],
+                     input[type="button"] {
+            border-radius: 10px;
+            width: 100px;
+            height: 25px;
+            border: none;
+            background-color: #AFD193;
+            cursor: pointer;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .price_color{
+            color: red;
+            font-weight: bold;
+        }
+
+        .add-form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+        }
+
+        .add-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .add-form input[type="text"] {
+            width: 100%;
+            padding: 5px;
+        }
+
+        .add-form input[type="submit"] {
+            margin-top: 10px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            width: 125px;
+            height: 25px;
+            border: none;
+            background-color: #AFD193;
+            cursor: pointer;
+        }
+
+        #product_name,
+        #product_price{
+            outline: none;
+        }
